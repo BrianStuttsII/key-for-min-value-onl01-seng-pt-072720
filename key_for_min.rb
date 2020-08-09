@@ -9,7 +9,7 @@
   
   fruits.each do |fruit,amount|
     
-    if  lowest amount == 0 ||amount < lowest_amount
+    if lowest amount == 0 || amount < lowest_amount
       lowest_amount = amount
       lowest_fruit= fruit
     end
