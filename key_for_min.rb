@@ -11,7 +11,7 @@
     
     if lowest_amount == 0|| amount < lowest_amount
       lowest_amount = amount
-      lowest_fruit= fruit
+      lowest_fruit = fruit
     end
  end
 lowest_fruit
