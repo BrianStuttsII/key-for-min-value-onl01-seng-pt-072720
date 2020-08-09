@@ -4,7 +4,7 @@
  fruits = {"apples" => 10, "oranges" => 3, "bananas"=> 8}
 
  def key_for_min_value(fruits)
-   lowest_amount = 10
+   lowest_amount = 0
   lowest_fruit = nil
   
   fruits.each do |fruit,amount|
@@ -16,6 +16,8 @@
  end
 lowest_fruit
 end 
+
+
 
 
 def key_for_min_value(name_hash)
