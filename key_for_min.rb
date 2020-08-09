@@ -5,15 +5,20 @@
 
  def key_for_min_value(fruits)
   
-fruits.each do |fruit,amount|
+
   
   lowest_amount = 10
   lowest_fruit = nil
   
-  
-
+  fruits.each do |fruit,amount|
+    
+    if lowest_amount == 0 || amount < lowest_amount
+      lowest_amount = amount
+      lowest_fruit= fruit
+    end
  end
-
+lowest_fruit
+end 
 
 
 
