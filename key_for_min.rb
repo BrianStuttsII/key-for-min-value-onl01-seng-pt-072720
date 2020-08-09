@@ -8,7 +8,9 @@
 fruits.each do |fruit,amount|
   
   lowest_amount = 10
-  lowest_fruit = nil 
+  lowest_fruit = nil
+  
+  
 
  end
 
