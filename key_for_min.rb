@@ -1,13 +1,16 @@
 # prereqs: iterators, hashes, conditional logic
 # Given a hash with numeric values, return the key for the smallest value
 
-# fruits = {"apples" => 10, "oranges" => 3, "bananas"=> 8}
+ fruits = {"apples" => 10, "oranges" => 3, "bananas"=> 8}
 
-# def key_for_min_value(fruits)
+ def key_for_min_value(fruits)
   
-# if amount == 
+fruits.each do |fruit,amount|
+  
+  lowest_amount = 10
+  lowest_fruit = nil 
 
-# end
+ end
 
 
 
